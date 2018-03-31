@@ -3,13 +3,8 @@ package br.edu.ifrs.progweb1.util;
 public class MinhaPilha implements Pilha {
 
     @Override
-    public void inserir() {
-        
-    }
-
-    @Override
-    public void remover() {
-        
+    public void inserir(Object obj) {
+        pilha.add(obj);
     }
 
     @Override
@@ -25,6 +20,12 @@ public class MinhaPilha implements Pilha {
     @Override
     public void ordenar() {
         
+    }
+
+    @Override
+    public Object remover(Object obj) {
+        pilha.remove(obj);
+        return null;
     }
 
 }

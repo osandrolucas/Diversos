@@ -5,12 +5,12 @@ import java.util.*;
 public interface Pilha {
 
     //1.1 A pilha irá conter elementos
-    public LinkedList<Object> Pilha = new LinkedList<>();
+    List <Object> pilha = new ArrayList<>();
 
     //1.3 Defina os métodos abaixo usando genéricos onde for possível:
-    public void inserir();
+    public void inserir(Object obj);
 
-    public void remover();
+    public Object remover(Object obj);
 
     public int totalizar();
 
