@@ -1,6 +1,3 @@
-// Cria uma árvore bin�ria de busca utilizando recursividade
-// Percorre a árvore em ordem com a utliza��o de recursividade
-
 #include <stdio.h>
 #include <stdlib.h>
 
