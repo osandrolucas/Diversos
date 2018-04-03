@@ -2,7 +2,7 @@ package br.edu.ifrs.progweb1.util;
 
 import java.util.*;
 
-public interface Pilha {
+public interface Pilha<T> {
 
     //1.1 A pilha irá conter elementos
     List <Object> pilha = new ArrayList<>();
